@@ -2,10 +2,10 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import styles from './styles'
 
-export default function Title() {
+export default function Form() {
   return (
-    <View style={styles.boxTitle}>
-      <Text style={styles.textTitle}>Title</Text>
+    <View style={styles.formContent}>
+      <Text>index</Text>
     </View>
   )
 }

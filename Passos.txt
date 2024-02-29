@@ -13,3 +13,9 @@ git config --global user.email nicolelopes0008@gmail.com
 
 git config --global user.name letnunes20
 git config --global user.email letcanunes@gmail.com
+
+Restaurar o PROJETO
+npm i
+
+Executar o PROJETO
+npx expo start --localhost --android
