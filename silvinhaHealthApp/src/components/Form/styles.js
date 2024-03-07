@@ -10,7 +10,41 @@ const styles = StyleSheet.create({
         marginTop: 30,
         borderTopRightRadius: 30,
         borderTopLeftRadius: 30,
-    }
+    },
+    form: {
+        width:'100%',
+        height:'auto',
+        marginTop:30,
+        padding:10,
+    },
+    formLabel: {
+      color:'#000',
+      fontSize:18,
+      paddingLeft:20,
+    },
+    input: {
+      width: '90%',
+      height: 40,
+      fontSize: 18,
+      borderRadius: 20,
+      backgroundColor: "#f6f6f6",
+      margin: 12,
+      paddingHorizontal: 15,
+    },
+    button: {
+      borderRadius: 50,
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: '90%',
+      backgroundColor: '#3DA74D',
+      paddingVertical: 14,
+      marginLeft: 12,
+      margin: 30,
+    },
+    textButton: {
+      fontSize: 22,
+      color: '#FFF'
+    },
 })
 
 export default styles;
